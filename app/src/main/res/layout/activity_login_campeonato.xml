@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F7FDFD"
+    tools:context=".LoginCampeonatoActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="169dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="viewStart"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/eTxtUsuario"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:hint="@string/eTxtUsuario"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/eTxtPassword"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:hint="@string/eTxtContrasena"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/TbtLoginConectar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#C6E7EC"
+        android:fontFamily="serif"
+        android:text="@string/TbtnIngresar"
+        android:textColor="#B3ADAD"
+        app:icon="@drawable/ic_baseline_exit_to_app_24" />
+
+    <TextView
+        android:id="@+id/TxtRegistrar"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/TbtnRegistrar"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

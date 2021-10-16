@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_deportistas">
+
+    <fragment
+        android:id="@+id/nav_equipos"
+        android:name="com.example.appcampeonato.ui.Equipos.EquiposFragment"
+        android:label="@string/menu_Equipo"
+        tools:layout="@layout/fragment_equipos" />
+
+    <fragment
+        android:id="@+id/nav_deportes"
+        android:name="com.example.appcampeonato.ui.Deportes.DeportesFragment"
+        android:label="@string/menu_Deportes"
+        tools:layout="@layout/fragment_deportes" />
+
+    <fragment
+        android:id="@+id/nav_deportistas"
+        android:name="com.example.appcampeonato.ui.Deportistas.DeportistasFragment"
+        android:label="@string/menu_Deportistas"
+        tools:layout="@layout/fragment_deportistas" />
+</navigation>
