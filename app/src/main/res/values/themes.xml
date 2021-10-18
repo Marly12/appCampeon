@@ -13,6 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+
+    </style>
 
     <style name="Theme.AppCampeonato.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -22,4 +26,6 @@
     <style name="Theme.AppCampeonato.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.AppCampeonato.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme">appThema</style>
 </resources>
